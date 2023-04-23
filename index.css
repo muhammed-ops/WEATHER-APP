@@ -7,11 +7,11 @@ html {
 }
 
 .container{
-    background-image: linear-gradient(to right,#41EFDB,#298EF0);
+    background-image: linear-gradient(to right bottom,#41EFDB,#298EF0);
     border: 2px solid black;
     width: 35%;
     border-radius: 30px;
-    height: 350px;
+    height: 370px;
     margin: 100px auto;
     position: relative;
     padding: 10px;
@@ -34,7 +34,7 @@ html {
 .container .details:focus{
     border: 2px solid black;
 }
-.container button{
+.container .search{
     width: 55px;
     height: 45px;
     position: absolute;
@@ -45,12 +45,12 @@ html {
     border: none;
     transition: 0.2s;
 }
-.container button ion-icon {
+.container .search ion-icon {
     font-size: 25px;
     font-weight: 600;
     box-sizing: border-box;
 }
-.container button:hover{
+.container .search:hover{
     transform: scale(1.2);
     border: 2px solid black;
 }
@@ -68,11 +68,11 @@ html {
     color: white;
     font-size: 30px;
     position: absolute;
-    top: 64%;
+    top: 60%;
 }
 .container .display{
     position: absolute;
-    left: 15%;
+    left: 11%;
     font-size: 35px;
     color: white;
     font-weight: 700;
@@ -86,6 +86,65 @@ html {
     font-weight: 700;
 
 }
+.container .humidityresult{
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+    align-self: self-end;
+    justify-self: start;
+    position: absolute;
+    left: 10%;
+
+}
+.container .windspeedresult{
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+    align-self: self-end;
+    justify-self: flex-end;
+    position: absolute;
+    left: 70%;
+}
+.container .windspeed{
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    align-self: self-end;
+    justify-self: flex-end;
+    position: absolute;
+    left: 70%;
+    top: 85%;
+    font-family: 'Dancing Script', cursive;
+    display: none;
+}
+.container .humidity{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    align-self: self-end;
+    justify-self: start;
+    position: absolute;
+    left: 7%;
+    top: 85%;
+    display: none;
+}
+.container .convert{
+    position: absolute;
+    top: 85%;
+    left: 35%;
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+    border-radius: 50px;
+    border: none;
+    display: none;
+    transition: 0.1s;
+    box-sizing: border-box;
+}
+.container .convert:hover{
+    border: 2px solid black;
+}
+
 
 @media screen and (max-width : 735px) {
     .container .result{

@@ -138,11 +138,12 @@ html {
     border-radius: 50px;
     border: none;
     display: none;
-    transition: 0.1s;
+    transition: 0.2s;
     box-sizing: border-box;
 }
 .container .convert:hover{
-    border: 2px solid black;
+    border: 2.5px solid black;
+    transform: scale(1.1);
 }
 
 

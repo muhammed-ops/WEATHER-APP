@@ -41,7 +41,7 @@ const convert = () =>{
     const answer = (word * 9/5) + 32;
     console.log(answer);
     resultElement.innerHTML = String(answer).concat('°F');
-    document.querySelector('.container .convert').innerHTML = 'convert to °C';
+    document.querySelector('.container .convert').innerHTML = 'Convert to °C';
     convertValue = false;
 }else{
     const resultElement = document.querySelector('.result');
@@ -49,8 +49,7 @@ const convert = () =>{
     const word = result.slice(0,-2)
     const answer = (word - 32) * 5/9;
     resultElement.innerHTML = String(answer).concat('°C');
-    document.querySelector('.container .convert').innerHTML = 'convert to °F';
-
+    document.querySelector('.container .convert').innerHTML = 'Convert to °F';
     convertValue = true;
 }
 }

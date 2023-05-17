@@ -9,7 +9,7 @@ html {
 .container{
     background-image: linear-gradient(to right bottom,#41EFDB,#298EF0);
     border: 2px solid black;
-    width: 35%;
+    width: 500px;
     border-radius: 30px;
     height: 370px;
     margin: 100px auto;
@@ -24,9 +24,9 @@ html {
     font-weight: 600;
     position: absolute;
     border-radius: 50px;
-    width: 45%;
+    width: 200px;
     height: 40px;
-    left: 17%;
+    left: 27%;
     top: 15%;
     border: none;
     padding-left: 20px;
@@ -103,7 +103,7 @@ html {
     align-self: self-end;
     justify-self: flex-end;
     position: absolute;
-    left: 70%;
+    left: 75%;
 }
 .container .windspeed{
     font-weight: 500;
@@ -112,7 +112,7 @@ html {
     align-self: self-end;
     justify-self: flex-end;
     position: absolute;
-    left: 70%;
+    left: 75%;
     top: 85%;
     font-family: 'Dancing Script', cursive;
     display: none;
@@ -132,7 +132,9 @@ html {
 .container .convert{
     position: absolute;
     top: 85%;
-    left: 35%;
+    width: 150px;
+    white-space: nowrap;
+    left: 37%;
     padding: 5px 10px 5px 10px;
     font-size: 15px;
     border-radius: 50px;
